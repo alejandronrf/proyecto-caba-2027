@@ -1,17 +1,15 @@
-"homepage": "https://alejandronrf.github.io/proyecto-caba-2027",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d out"
-}
 {
   "name": "open-pro-next",
+  "homepage": "https://alejandronrf.github.io/proyecto-caba-2027",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
