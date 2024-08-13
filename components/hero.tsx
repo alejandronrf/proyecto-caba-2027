@@ -36,33 +36,12 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Propuestas principales */}
-          <div className="max-w-6xl mx-auto px-4 sm:px-6">
-            <div className="py-12 md:py-20">
-              <h2 className="h2 mb-4 text-center">Nuestras Propuestas Principales</h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="bg-gray-800 p-6 rounded-lg" data-aos="fade-up">
-                  <h3 className="h3 mb-2">Expansión del Sistema de Subtes</h3>
-                  <p>Construiremos al menos 5km de subte anuales, extendiendo las líneas B y D hasta General Paz.</p>
-                </div>
-                <div className="bg-gray-800 p-6 rounded-lg" data-aos="fade-up" data-aos-delay="200">
-                  <h3 className="h3 mb-2">Reducción de Gastos Innecesarios</h3>
-                  <p>Aplicaremos la motosierra presupuestaria para eliminar gastos espurios y redirigir fondos a proyectos prioritarios.</p>
-                </div>
-                <div className="bg-gray-800 p-6 rounded-lg" data-aos="fade-up" data-aos-delay="400">
-                  <h3 className="h3 mb-2">Baja de Impuestos</h3>
-                  <p>Implementaremos una política de reducción de impuestos para aliviar la carga fiscal de los ciudadanos y fomentar el crecimiento económico.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <ModalVideo
           thumb={VideoThumb}
           thumbWidth={768}
           thumbHeight={481}
           thumbAlt="Proyecto CABA 2027"
-          video="/videos/video.mp4"
+          video="@/videos/video.mp4"
           videoWidth={1920}
           videoHeight={1080} />
 
