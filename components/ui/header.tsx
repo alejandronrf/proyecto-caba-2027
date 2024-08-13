@@ -1,5 +1,8 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
+import Image from 'next/image'
+
+import Logo from '@/public/images/LogoJuani.png'
 
 export default function Header() {
   return (
@@ -10,10 +13,7 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" aria-label="Cruip">
-              <img 
-                  src="/images/LogoJuani.png" 
-                  alt="Proyecto CABA 2024"
-                />
+              <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Logo} width={540} height={405} alt="Logo" />
             </Link>
           </div>
 

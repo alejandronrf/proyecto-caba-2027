@@ -1,5 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
+
+import Logo from '@/public/images/LogoJuani.png'
 
 export default function Footer() {
   return (
@@ -15,10 +18,7 @@ export default function Footer() {
               <div className="mb-2">
                 {/* Logo */}
                 <Link href="/" aria-label="Cruip">
-                  <img 
-                    src="/images/LogoJuani.png" 
-                    alt="Proyecto CABA 2024" 
-                  />
+                  <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Logo} width={540} height={405} alt="Logo" />
                 </Link>
               </div>
               <div className="text-gray-400">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</div>
