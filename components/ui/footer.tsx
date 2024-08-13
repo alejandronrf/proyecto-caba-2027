@@ -113,7 +113,6 @@ export default function Footer() {
               <li className="ml-4">
                 <Link href="mailto:juan.fernandez17@gmail.com" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="Email">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="20.145" cy="11.892" r="1" />
                     <path d="M0 0 C4.62 0 9.24 0 14 0 C14 3.96 14 7.92 14 12 C9.38 12 4.76 12 0 12 C0 8.04 0 4.08 0 0 Z " />
                   </svg>
                 </Link>
