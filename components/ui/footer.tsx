@@ -106,24 +106,25 @@ export default function Footer() {
               <li className="ml-4">
                 <Link href="https://www.youtube.com/@juanignaciofernandez" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="YouTube">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 0 C2.97 0.33 5.94 0.66 9 1 C9 2.65 9 4.3 9 6 C9.66 6 10.32 6 11 6 C11 8.64 11 11.28 11 14 C7.04 14 3.08 14 -1 14 C-1 11.36 -1 8.72 -1 6 C-0.34 6 0.32 6 1 6 C0.67 4.02 0.34 2.04 0 0 Z " />
+                    <path d="M13.3473 1.25H2.34729C1.79501 1.25 1.34729 1.69772 1.34729 2.25V13.25C1.34729 13.8023 1.79501 14.25 2.34729 14.25H13.3473C13.8996 14.25 14.3473 13.8023 14.3473 13.25V2.25C14.3473 1.69772 13.8996 1.25 13.3473 1.25Z" stroke="#000001" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.3373 11.3099V7.47989C6.34009 7.42103 6.35729 7.36376 6.38738 7.3131C6.41748 7.26244 6.45955 7.21994 6.5099 7.18933C6.56025 7.15873 6.61735 7.14095 6.67617 7.13756C6.735 7.13417 6.79376 7.14527 6.8473 7.16989L10.1673 9.07989C10.2211 9.11302 10.2655 9.15936 10.2962 9.21449C10.327 9.26963 10.3432 9.33174 10.3432 9.39489C10.3432 9.45804 10.327 9.52014 10.2962 9.57528C10.2655 9.63042 10.2211 9.67676 10.1673 9.70989L6.8473 11.6299C6.79283 11.6523 6.73382 11.6613 6.67515 11.6563C6.61648 11.6513 6.55985 11.6324 6.50998 11.6011C6.4601 11.5698 6.41841 11.527 6.38838 11.4764C6.35834 11.4257 6.34083 11.3687 6.3373 11.3099V11.3099Z" />
                   </svg>
                 </Link>
               </li>
               <li className="ml-4">
                 <Link href="mailto:juan.fernandez17@gmail.com" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="Email">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 0 C4.62 0 9.24 0 14 0 C14 3.96 14 7.92 14 12 C9.38 12 4.76 12 0 12 C0 8.04 0 4.08 0 0 Z " />
+                    <path d="M13 1.75H2C1.44772 1.75 1 2.19772 1 2.75V11.25C1 11.8023 1.44772 12.25 2 12.25H13C13.5523 12.25 14 11.8023 14 11.25V2.75C14 2.19772 13.5523 1.75 13 1.75Z" />
                   </svg>
                 </Link>
               </li>
-              {/* <li className="ml-4">
-                <Link href="/" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="Linkedin">
+              <li className="ml-4">
+                <Link href="https://juanifernandez.com/" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="Pagina">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M23.3 8H8.7c-.4 0-.7.3-.7.7v14.7c0 .3.3.6.7.6h14.7c.4 0 .7-.3.7-.7V8.7c-.1-.4-.4-.7-.8-.7zM12.7 21.6h-2.3V14h2.4v7.6h-.1zM11.6 13c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4v-3.7c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8h-2.4V14h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2h.1z" />
+                    <path d="M5.525 13.657l2.652-2.652.707.707-2.652 2.652c-1.269 1.27-3.327 1.27-4.596 0-1.27-1.27-1.27-3.327 0-4.596l2.652-2.652.707.707-2.652 2.652c-.879.879-.879 2.303 0 3.182.879.879 2.303.879 3.182 0zm6.187-4.773l-.707-.707 2.652-2.652c.879-.879.879-2.303 0-3.182-.879-.879-2.303-.879-3.182 0L7.823 4.995l-.707-.707 2.652-2.652c1.269-1.27 3.327-1.27 4.596 0 1.27 1.27 1.27 3.327 0 4.596l-2.652 2.652zm-5.45 1.62l4.242-4.242-.766-.766-4.242 4.242.766.766z" />
                   </svg>
                 </Link>
-              </li> */}
+              </li>
             </ul>
 
             {/* Copyrights note */}
