@@ -14,11 +14,10 @@ export default function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Link href="/" className="inline-block" aria-label="Cruip">
+                <Link href="/" aria-label="Cruip">
                   <img 
-                    src="@/images/LogoJuani.png" 
+                    src="/images/LogoJuani.png" 
                     alt="Proyecto CABA 2024" 
-                    className="w-8 h-8"
                   />
                 </Link>
               </div>
