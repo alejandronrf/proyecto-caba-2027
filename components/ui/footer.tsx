@@ -18,7 +18,7 @@ export default function Footer() {
               <div className="mb-2">
                 {/* Logo */}
                 <Link href="/" aria-label="Cruip">
-                  <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Logo} width={540} height={405} alt="Logo" />
+                  <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Logo} width={75} height={75} alt="Logo" />
                 </Link>
               </div>
               <div className="text-gray-400">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</div>

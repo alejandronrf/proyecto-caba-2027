@@ -13,7 +13,7 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" aria-label="Cruip">
-              <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Logo} width={540} height={405} alt="Logo" />
+              <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Logo} width={75} height={75} alt="Logo" />
             </Link>
           </div>
 
