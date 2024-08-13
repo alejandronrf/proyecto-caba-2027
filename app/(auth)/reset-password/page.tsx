@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Reset Password - Open PRO',
-  description: 'Page description',
+  title: 'Resetear contraseña',
+  description: 'Pagina para el reseteo de contraseña - Proyecto CABA 2027',
 }
 
 import Link from 'next/link'
@@ -13,8 +13,8 @@ export default function ResetPassword() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1 mb-4">Forgot your password?</h1>
-            <p className="text-xl text-gray-400">We'll email you instructions on how to reset it.</p>
+            <h1 className="h1 mb-4">Olvidaste la contraseña?</h1>
+            <p className="text-xl text-gray-400">Le enviaremos por correo electrónico instrucciones sobre cómo restablecerlo.</p>
           </div>
 
           {/* Form */}
@@ -28,12 +28,12 @@ export default function ResetPassword() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">Reset Password</button>
+                  <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">Resetar Contraseña</button>
                 </div>
               </div>
             </form>
             <div className="text-gray-400 text-center mt-6">
-              <Link href="/signin" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Cancel</Link>
+              <Link href="/signin" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Cancelar</Link>
             </div>
           </div>
 
