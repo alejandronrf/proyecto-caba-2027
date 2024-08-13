@@ -1,4 +1,4 @@
-export default function Propuestas() {
+export default function Blocks() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
