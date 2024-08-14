@@ -9,6 +9,8 @@ import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
 
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico"></link>
+
 export default function Home() {
   return (
     <>
