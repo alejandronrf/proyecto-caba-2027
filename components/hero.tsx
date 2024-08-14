@@ -42,8 +42,8 @@ export default function Hero() {
           thumbHeight={481}
           thumbAlt="Proyecto CABA 2027"
           video="/videos/video.mp4"
-          videoWidth={1920}
-          videoHeight={1080} />
+          videoWidth={600}
+          videoHeight={316} />
 
         </div>
 
