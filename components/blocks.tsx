@@ -68,8 +68,6 @@ export default function Blocks() {
 
           </div>
 
-          </div>
-
         </div>
       </div>
     </section>
