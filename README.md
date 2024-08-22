@@ -1,1 +1,1 @@
-Si lees esto, algo salio mal
+Si lees esto: algo salio mal o esta buildeando la pagina.
