@@ -2,7 +2,7 @@ import Link from 'next/link'
 import MobileMenu from './mobile-menu'
 import Image from 'next/image'
 
-import Logo from '@/public/images/LogoJuani.png'
+import Logo from '@/public/images/LogoJuaniOscuro.png'
 
 export default function Header() {
   return (
