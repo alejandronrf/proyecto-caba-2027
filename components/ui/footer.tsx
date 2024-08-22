@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import Logo from '@/public/images/LogoJuani.png'
+import Logo from '@/public/images/LogoJuaniOscuro.png'
 
 export default function Footer() {
   return (
