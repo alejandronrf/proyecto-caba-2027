@@ -6,8 +6,8 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Nuestras Propuestas para Transformar CABA</h2>
-            <p className="text-xl text-gray-400">Motosierra, baja de impuestos y subtes: Transformando la Ciudad Autónoma de Buenos Aires con propuestas concretas y eficientes.</p>
+            <h2 className="h2 mb-4 text-purple-600">EJES</h2>
+            <p className="text-xl text-gray-400">Estos son nuestros ejes de cambio para  CABA 2027</p>
           </div>
 
           {/* Items */}
@@ -20,8 +20,8 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Expansión del Sistema de Subtes</h4>
-              <p className="text-lg text-gray-400 text-center">Construiremos al menos 5km de subte anuales, extendiendo las líneas B y D hasta General Paz para mejorar la movilidad en la ciudad.</p>
+              <h4 className="h4 mb-2 text-purple-600">Motosierra <span className="h4 mb-2 text-gray-400">(Optimización del Gasto Fiscal): </span></h4>
+              <p className="text-lg text-gray-400 text-center">Reducción drástica y rápida de partidas para financiar obras con fondos propios</p>
             </div>
 
             {/* 2nd item */}
