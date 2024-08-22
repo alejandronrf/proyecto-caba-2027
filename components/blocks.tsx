@@ -45,23 +45,28 @@ export default function Blocks() {
               <p className="text-lg text-gray-400 text-center">Eliminación de los 38 Pasos a Nivel Restantes en la Ciudad de Buenos Aires</p>
             </div>
 
-            {/* 4th item */}
-            <div className="relative flex flex-col items-center bg-purple-100 border-2 border-purple-500 p-6 rounded-lg md:col-span-2 md:justify-self-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-              <div className="w-16 h-16 mb-4 flex items-center justify-center bg-purple-600 rounded-full text-white text-2xl">
-                4
+            {/* 4th and 5th items in the same row */}
+            <div className="relative flex flex-col md:flex-row gap-8 md:gap-16 md:col-span-2 items-center justify-between">
+              {/* 4th item */}
+              <div className="flex flex-col items-center bg-purple-100 border-2 border-purple-500 p-6 rounded-lg" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+                <div className="w-16 h-16 mb-4 flex items-center justify-center bg-purple-600 rounded-full text-white text-2xl">
+                  4
+                </div>
+                <h4 className="h4 mb-2 text-gray-400">Eliminación de <span className="h4 mb-2 text-purple-600">Bicisendas</span> espurias:</h4>
+                <p className="text-lg text-gray-400 text-center">Eliminación progresiva de las bicisendas no utilizadas y habilitación de estacionamiento en ambos lados</p>
               </div>
-              <h4 className="h4 mb-2 text-gray-400">Eliminación de <span className="h4 mb-2 text-purple-600">Bicisendas</span> espurias:</h4>
-              <p className="text-lg text-gray-400 text-center">Eliminación progresiva de las bicisendas no utilizadas y habilitación de estacionamiento en ambos lados</p>
+
+              {/* 5th item */}
+              <div className="flex flex-col items-center bg-purple-100 border-2 border-purple-500 p-6 rounded-lg" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+                <div className="w-16 h-16 mb-4 flex items-center justify-center bg-purple-600 rounded-full text-white text-2xl">
+                  5
+                </div>
+                <h4 className="h4 mb-2 text-purple-600">Veredas <span className="h4 mb-2 text-gray-400">modernas, funcionales y costo-eficientes:</span></h4>
+                <p className="text-lg text-gray-400 text-center">Desarrollo de veredas de cemento alisado y renovación progresiva de veredas en estado deficiente</p>
+              </div>
             </div>
 
-            {/* 5th item */}
-            <div className="relative flex flex-col items-center bg-purple-100 border-2 border-purple-500 p-6 rounded-lg md:col-span-2 md:justify-self-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-              <div className="w-16 h-16 mb-4 flex items-center justify-center bg-purple-600 rounded-full text-white text-2xl">
-                5
-              </div>
-              <h4 className="h4 mb-2 text-purple-600">Veredas <span className="h4 mb-2 text-gray-400">modernas, funcionales y costo-eficientes:</span></h4>
-              <p className="text-lg text-gray-400 text-center">Desarrollo de veredas de cemento alisado y renovación progresiva de veredas en estado deficiente</p>
-            </div>
+          </div>
 
           </div>
 
