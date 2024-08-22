@@ -41,7 +41,7 @@ export default function Blocks() {
               <div className="w-16 h-16 mb-4 flex items-center justify-center bg-purple-600 rounded-full text-white text-2xl">
                 3
               </div>
-              <h4 className="h4 mb-2 text-purple-600">Ciudad <span className="h4 mb-2 text-gray-400">Sin Barreras</span>:</h4>
+              <h4 className="h4 mb-2 text-purple-600">Ciudad <span className="h4 mb-2 text-gray-400">Sin Barreras:</span></h4>
               <p className="text-lg text-gray-400 text-center">Eliminación de los 38 Pasos a Nivel Restantes en la Ciudad de Buenos Aires</p>
             </div>
 
@@ -50,7 +50,7 @@ export default function Blocks() {
               <div className="w-16 h-16 mb-4 flex items-center justify-center bg-purple-600 rounded-full text-white text-2xl">
                 4
               </div>
-              <h4 className="h4 mb-2 text-purple-600">Eliminación de <span className="h4 mb-2 text-gray-400">Bicisendas espurias</span>:</h4>
+              <h4 className="h4 mb-2 text-purple-600">Eliminación de <span className="h4 mb-2 text-gray-400">Bicisendas espurias:</span></h4>
               <p className="text-lg text-gray-400 text-center">Eliminación progresiva de las bicisendas no utilizadas y habilitación de estacionamiento en ambos lados</p>
             </div>
 
@@ -59,7 +59,7 @@ export default function Blocks() {
               <div className="w-16 h-16 mb-4 flex items-center justify-center bg-purple-600 rounded-full text-white text-2xl">
                 5
               </div>
-              <h4 className="h4 mb-2 text-purple-600">Veredas <span className="h4 mb-2 text-gray-400">modernas, funcionales y costo-eficientes</span>:</h4>
+              <h4 className="h4 mb-2 text-purple-600">Veredas <span className="h4 mb-2 text-gray-400">modernas, funcionales y costo-eficientes:</span></h4>
               <p className="text-lg text-gray-400 text-center">Desarrollo de veredas de cemento alisado y renovación progresiva de veredas en estado deficiente</p>
             </div>
 
